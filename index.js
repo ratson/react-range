@@ -1,15 +1,17 @@
 'use strict';
 
 var React = require('react');
+var createReactClass = require('create-react-class');
+var PropTypes = require('prop-types');
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var Range = React.createClass({
+var Range = createReactClass({
   displayName: 'Range',
   propTypes: {
-    onChange: React.PropTypes.func,
-    onClick: React.PropTypes.func,
-    onKeyDown: React.PropTypes.func,
-    onMouseMove: React.PropTypes.func
+    onChange: PropTypes.func,
+    onClick: PropTypes.func,
+    onKeyDown: PropTypes.func,
+    onMouseMove: PropTypes.func
   },
   getDefaultProps: function() {
     return {
