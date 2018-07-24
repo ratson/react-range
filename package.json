@@ -1,5 +1,5 @@
 {
-  "name": "@mapbox/react-range",
+  "name": "react-range-fix",
   "version": "0.0.7",
   "description": "A react component that makes input type=range compatible across all browsers",
   "main": "index.js",
@@ -29,6 +29,6 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mapbox/react-range.git"
+    "url": "https://github.com/ratson/react-range.git"
   }
 }
